@@ -19,7 +19,7 @@ export default function Home() {
     isModalOpen,
     toggleModal,
     exitModal,
-  } = useGlobal(false);
+  } = useGlobal();
   return (
     <GlobalStateContext.Provider
       value={{

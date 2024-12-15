@@ -11,7 +11,7 @@ function Hero() {
       className="flex items-center h-screen bg-[rgb(41,41,51)] border-x-2 border-t-2 border-[#ffc96b] mobile:h-max "
     >
       <div className=" w-full flex justify-center items-center ml-20 px-10 mobile:flex-col-reverse mobile:ml-0 pt-20">
-        <div className="flex flex-col z-20 pointer-events-none text-white w-3/5 mobile:bg-[rgb(41,41,51)] mt-10 mobile:w-[80%] px-5 justify-center items-end m-auto mobile:pt-10">
+        <div className="flex flex-col z-20 pointer-events-none text-white w-3/5 mobile:bg-[rgb(41,41,51)] mt-10 mobile:w-[100%] px-5 justify-center items-end m-auto mobile:pt-10">
           <p className="text-[3vw] font-bold text-left w-full font-poppins mobile:text-[4vw]">
             I&apos;M{" "}
             <span className="font-serif text-[4vw] text-[#ffc96b] mobile:text-[5vw] ">

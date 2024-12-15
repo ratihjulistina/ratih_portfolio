@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div
-      className="bg-[rgb(49,51,59)] h-screen border-x-2 border-[#ffc96b] mobile:h-max "
+      className="bg-[rgb(49,51,59)] h-screen border-x-2 border-[#ffc96b] mobile:h-min "
       id="About"
     >
       <img

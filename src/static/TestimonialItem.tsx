@@ -7,9 +7,9 @@ const TestimonialItem = () => {
       {testimonialData.data.map((item, index) => (
         <div
           key={"W" + index}
-          className="flex flex-row justify-between items-start "
+          className="flex flex-row justify-between items-start mobile:flex-col-reverse mobile:items-center  "
         >
-          <div className="flex flex-col justify-start items-center w-[60%] mt-10">
+          <div className="flex flex-col justify-center items-end w-[60%] mt-10 mobile:w-[100%] ">
             <div className="font-poppins text-[#f8f7f6]">
               {`" ${item.description} "`}
             </div>

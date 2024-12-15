@@ -7,7 +7,7 @@ const ProjectsItem = ({ title }: { title: string }) => {
         <img
           src={"projectImage/" + title + ".jpg"}
           alt={title + " image"}
-          className=" object-cover h-[100%]"
+          className="object-cover w-[100%] h-[100%]"
         />
       </div>
 
