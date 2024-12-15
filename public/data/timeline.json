@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "title": "Junior Fullstack Web Developer",
+      "company": "Freelancing",
+      "tasks": "Building modern web with API integration and dashboard",
+      "year": "2021"
+    },
+    {
+      "title": "Senior Fullstack Web Developer",
+      "company": "PT.Cipta cipta",
+      "tasks": "Building modern web with API integration and dashboard",
+      "year": "2024"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320" transform="scale(1,-1)">
+<defs>
+<filter id="a" x="-50%" y="-50%" width="200%" height="200%">
+<feOffset dy="20"/>
+<feGaussianBLur stdDeviation="4" result="offset-blur"/>
+<feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+<feFlood flood-color="#cbd5e1   " flood-opacity=".1" result="color"/>
+<feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+<feComposite in="shadow" in2="SourceGraphic"/>
+
+</filter>
+</defs><path fill="#292933" filter="url(#a)" d="M0,256L1440,96L1440,320L0,320Z"></path></svg>
