@@ -1,13 +1,14 @@
 import { GlobalStateContext } from "@/contexts/GlobalStateContext";
+import Link from "next/link";
 import { useContext } from "react";
 
 const MenuItem = ({ title }: { title: string }) => {
   const context = useContext(GlobalStateContext);
 
   return (
-    <a href={"/#" + title} onClick={context?.exitMenu}>
+    <Link href={"/#" + title} onClick={context?.exitMenu}>
       {title}
-    </a>
+    </Link>
   );
 };
 

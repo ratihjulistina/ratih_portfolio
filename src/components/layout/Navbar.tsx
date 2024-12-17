@@ -4,6 +4,7 @@ import MenuItem from "../menu/elements/MenuItem";
 import useScrollPos from "@/hooks/useScrollPos";
 import BurgerMenu from "../menu/BurgerMenu";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   const isAtTop2 = useScrollPos();
@@ -21,7 +22,7 @@ function Navbar() {
         className="h-[100%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."
         href="/#Hero"
       >
-        <img className="object-cover h-[100%]" src="/logo.png" alt="logo" />
+        <Image className="object-cover h-[100%]" src="/logo.png" alt="logo" />
       </Link>
       <div className="hidden desktop:flex justify-center text-0.5xl w-3/4 font-poppins text-slate-400 gap-10 mr-10 ">
         <div className=" hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">

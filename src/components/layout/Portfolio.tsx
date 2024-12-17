@@ -7,11 +7,6 @@ const Portfolio = () => {
       className="bg-[rgb(49,51,59)] h-max py-10 border-x-2 border-[#ffc96b] "
       id="Portfolio"
     >
-      {/* <img
-        className="w-full h-44"
-        src="transitions/transitions_gradient.svg"
-        alt="transition"
-      /> */}
       <div className="w-[80%] flex flex-col justify-center items-center mx-auto mt-10">
         <h1 className="text-5xl font-bold font-serif text-[#f8f7f6]">
           Portfolio

@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectsItem = ({ title }: { title: string }) => {
   return (
     <div className="cardProjects">
       <div className="imageProjects">
-        <img
+        <Image
           src={"projectImage/" + title + ".jpg"}
           alt={title + " image"}
           className="object-cover w-[100%] h-[100%]"
@@ -13,7 +14,7 @@ const ProjectsItem = ({ title }: { title: string }) => {
 
       <div className="textProjects">
         <button className=" font-poppins text-[rgb(41,41,51)] font-medium bg-[#ffc96b] rounded-md m-auto px-3 py-2 ">
-          <a href="/#">See More</a>
+          <Link href="/#">See More</Link>
         </button>
       </div>
     </div>
