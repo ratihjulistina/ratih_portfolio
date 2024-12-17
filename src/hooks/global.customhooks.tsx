@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function useGlobal(value: boolean) {
+export function useGlobal() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [isModalOpen, setModalOpen] = useState<boolean>(false);
 
