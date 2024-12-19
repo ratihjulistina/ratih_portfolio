@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "title": "Cloning Gojek Landing Page",
+      "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+      "image": "gojek",
+      "id": "gojek"
+    },
+    {
+      "title": "Making Our First ToDo List App Using REACT",
+      "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+      "image": "todolist",
+      "slug": "todolist"
+    },
+    {
+        "title": "Making My Portfolio Page using Nextjs FrameWork",
+        "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+        "image": "portfoliopage",
+        "slug": "portfoliopage"
+      },
+      {
+        "title": "Create my personal website using React Hook and Tailwind CSS in Nextjs",
+        "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+        "image": "personalwebsite",
+        "slug": "personalwebsite"
+      },
+      {
+        "title": "Producing My First Blogpost Using Headless CMS",
+        "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+        "image": "blogpost",
+        "slug": "blogpost"
+      },
+      {
+        "title": "Building My First Company Profile",
+        "description": "in order to learn front end module, we need to get used to slicing and the best start is cloning other website with our sense",
+        "image": "companyprofile",
+        "slug": "companyprofile"
+      }
+    ]
+    
+    
+    
+  ]
+}

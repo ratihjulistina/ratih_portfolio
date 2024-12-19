@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div
       id="Experience"
-      className="bg-[rgb(41,41,51)]  min-h-max py-10 border-x-2  border-[#ffc96b]"
+      className="bg-[rgb(41,41,51)]  min-h-max py-20 border-x-2  border-[#ffc96b]"
     >
       {/* <img
         className="w-full h-44"

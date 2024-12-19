@@ -13,7 +13,7 @@ function Contact() {
         alt="transition"
       /> */}
 
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-row justify-between items-center pt-20">
         <div className="w-[40%] h-0.5 bg-[#ffc96b]"></div>
         <div className="text-2xl font-bold font-serif text-[#f8f7f6]">
           Contact

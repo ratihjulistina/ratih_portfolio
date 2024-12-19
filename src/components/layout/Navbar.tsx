@@ -22,7 +22,13 @@ function Navbar() {
         className="h-[100%] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."
         href="/#Hero"
       >
-        <Image className="object-cover h-[100%]" src="/logo.png" alt="logo" />
+        <Image
+          className="object-cover h-[100%]"
+          src="/logo.png"
+          alt="logo"
+          width={50}
+          height={50}
+        />
       </Link>
       <div className="hidden desktop:flex justify-center text-0.5xl w-3/4 font-poppins text-slate-400 gap-10 mr-10 ">
         <div className=" hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">

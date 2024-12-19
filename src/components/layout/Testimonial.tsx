@@ -4,7 +4,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div
-      className="bg-[rgb(41,41,51)]  min-h-max border-x-2  border-[#ffc96b] py-10 "
+      className="bg-[rgb(41,41,51)]  min-h-max border-x-2  border-[#ffc96b] py-20 "
       id="Testimonial"
     >
       {/* <img
