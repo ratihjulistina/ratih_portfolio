@@ -16,7 +16,7 @@ const ProjectsItem = ({ title }: { title: string }) => {
 
       <div className="textProjects">
         <button className=" font-poppins text-[rgb(41,41,51)] font-medium bg-[#ffc96b] rounded-md m-auto px-3 py-2 ">
-          <Link href={"/#" + title}>See More</Link>
+          <Link href={"/services/" + title}>See More</Link>
         </button>
       </div>
     </div>
