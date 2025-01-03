@@ -5,13 +5,13 @@ import Image from "next/image";
 
 // Update to match Next.js expected type for dynamic routes
 interface PageProps {
-  params: {
+  params: Promise<{
     projectId: string;
-  };
+  }>;
 }
 
-const page = ({ params }: PageProps) => {
-  const slug = params.projectId;
+export default async function page({ params }: PageProps) {
+  const slug = (await params).projectId;
   const project = projects.data.find(
     (projectitem) => projectitem.slug === slug
   );
@@ -48,6 +48,4 @@ const page = ({ params }: PageProps) => {
       </div>
     </div>
   );
-};
-
-export default page;
+}
