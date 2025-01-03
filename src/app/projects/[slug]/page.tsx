@@ -3,7 +3,14 @@ import projects from "../../../../public/data/projects.json";
 import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
 
-const page = ({ params }: { params: { slug: string } }) => {
+// Update to match Next.js expected type for dynamic routes
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+const page = ({ params }: PageProps) => {
   const slug = params.slug;
   const project = projects.data.find((project) => project.slug === slug);
 
