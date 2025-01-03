@@ -6,13 +6,15 @@ import Image from "next/image";
 // Update to match Next.js expected type for dynamic routes
 interface PageProps {
   params: {
-    slug: string;
+    projectId: string;
   };
 }
 
 const page = ({ params }: PageProps) => {
-  const slug = params.slug;
-  const project = projects.data.find((project) => project.slug === slug);
+  const slug = params.projectId;
+  const project = projects.data.find(
+    (projectitem) => projectitem.slug === slug
+  );
 
   if (!project) {
     return <div>Service not found</div>;
