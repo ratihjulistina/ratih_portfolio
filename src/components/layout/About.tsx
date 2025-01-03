@@ -17,9 +17,9 @@ const About = () => {
         <p className="font-poppins text-[#f8f7f6]">
           Coming from an engineering background does not make me stop to learn
           new things. Everything has the same pattern and it is just repeated
-          again and again. For that reason, I have chose to become a web
-          developer. I am an eager person and a great team partner. Now, I am on
-          the way to several core skills, such as,
+          again and again. For that reason, I am convinced I could be a web
+          developer in the future. I am an eager person and a great team
+          partner. Now, I am on my way to several core skills, such as,
         </p>
         <span>
           <p className="text-[#ffc96b]">
