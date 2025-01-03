@@ -18,7 +18,7 @@ const About = () => {
           Coming from an engineering background does not make me stop to learn
           new things. Everything has the same pattern and it is just repeated
           again and again. For that reason, I am convinced I could be a web
-          developer in the future. I am an eager person and a great team
+          developer in the future . I am an eager person and a great team
           partner. Now, I am on my way to several core skills, such as,
         </p>
         <span>
